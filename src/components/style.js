@@ -34,6 +34,7 @@ export default StyleSheet.create({
   },
   tooltipText: {
     color: '#222',
+    lineHeight: 22,
     fontWeight: '500',
     ...Platform.select({
       ios: { fontFamily: 'PingFang TC' },
